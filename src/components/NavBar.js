@@ -12,7 +12,7 @@ import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import "../css/nav.css"
-
+import { Link } from 'react-router-dom';
 const pages = ['Home', 'Blog', 'About', 'Portfolio'];
 
 const NavBar = () => {
@@ -81,7 +81,7 @@ const NavBar = () => {
             >
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">{page}</Typography>
+                 <Link to={`${page.toLowerCase()}`}> <Typography className="nav-link-sm" textAlign="center">{page}</Typography></Link>
                 </MenuItem>
               ))}
             </Menu>
@@ -112,7 +112,7 @@ const NavBar = () => {
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
-                {page}
+               <Link to={`${page.toLowerCase()}`}> {page} </Link>
               </Button>
             ))}
           </Box>

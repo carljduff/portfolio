@@ -11,6 +11,7 @@ const Home = () => {
 
     return(
         <div className="clip">
+          
  <Container>
       <Row>
         <Col className="name">Hi, I'm Jordan...</Col>
