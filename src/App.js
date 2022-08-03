@@ -1,9 +1,12 @@
-
+import NavBar from "./components/NavBar";
+import React from "react";
+import Home from "./components/Home";
 
 function App() {
   return (
     <div className="App">
-     HEY BITCHHHHH
+     <NavBar/>
+     <Home/>
     </div>
   );
 }

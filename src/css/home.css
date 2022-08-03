@@ -1,0 +1,79 @@
+body {
+    background-color: #B8A9A2;
+
+
+}
+
+.clip {
+    clip-path: circle(55.9% at 50% 20%);
+    /* clip-path: circle(59.4% at 0 53%); */
+    height: 100vh;
+    background-color: #2B4050;
+    /* width: 100%;
+    height: 100%; */
+    /* top: 0; */
+    margin-bottom: 50px;
+
+}
+
+.col {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.i-title{
+    height: 50px;
+    overflow: hidden;
+}
+
+
+.i-title-wrapper{
+    height: 100%;
+    animation: move 10s ease-in-out infinite alternate;
+}
+
+@keyframes move {
+    25%{
+        transform: translateY(-50px);
+    }
+    50%{
+        transform: translateY(-100px);
+    }
+    75%{
+        transform: translateY(-150px);
+    }
+    100%{
+        transform: translateY(-200px);
+    }
+}
+.i-title-item{
+    height: 50px;
+    font-size: 30px;
+    /* font-weight: bold; */
+    /* color: #2B4050; */
+    font-family: 'Charis SIL', serif;
+    text-align: center;
+    color: white;
+}
+
+.name {
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Charis SIL', serif;
+    color: white;
+}
+
+.pic {
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.git {
+    width: 125px;
+    height: 75px;
+}
+
+.link {
+    width: 100px;
+    height: 100px;
+}
