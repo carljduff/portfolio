@@ -8,7 +8,7 @@ const Portfolio = () => {
         <div className="p1">
         <div className="p1-texts" id={'Portfolio'}>
             {/* <h1 className="p1-title">Create and Inspire.</h1> */}
-            <p className="p1-desc">Portfolio</p>
+            <p className="p1-desc">Featured Portfolio</p> 
         </div>
 
         <div className="p1-list">
@@ -17,6 +17,10 @@ const Portfolio = () => {
         ))}
         
              
+        </div>
+
+        <div className="port-btn-div">
+            <button className="full-port-btn"><a href="https://www.github.com/carljduff">View Full Portfolio</a></button>
         </div>
 </div>
 

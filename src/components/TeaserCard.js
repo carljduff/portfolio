@@ -1,7 +1,6 @@
-import React, { useContext } from "react";
+import React from "react";
 import "../css/port.css"
-import { Link, useParams } from "react-router-dom";
-import { BlogContext } from "./BlogContext";
+import { Link } from "react-router-dom";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -13,7 +12,7 @@ const TeaserCard = ({t_id, t_title, t_date, t_desc}) => {
 
 
     return(
-        <div className="teaser-card-wrapper">
+      
 
 <Container>
     
@@ -29,10 +28,13 @@ const TeaserCard = ({t_id, t_title, t_date, t_desc}) => {
 <Row>
   <Col md={{ span: 4, offset: 0 }}><Link to={`${t_id}`}><button className="view-btn-teaser">View</button></Link></Col>
 </Row>
+<Row>
+  <Col md={{ span: 4, offset: 0 }}><hr/></Col>
+</Row>
 </Container>
  
         
-    </div>
+    
     )
 }
 

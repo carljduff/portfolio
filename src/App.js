@@ -6,6 +6,7 @@ import Portfolio from "./components/Portfolio";
 import BlogList from "./components/BlogList";
 import Blog from "./components/Blog";
 import { BlogProvider } from "./components/BlogContext";
+import About from "./components/About";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
      <Route path="portfolio" element={<Portfolio/>} />
      <Route path="blog" element={<BlogList/>} />
      <Route path="blog/:blogID" element={<Blog/>} />
+     <Route path="about" element={<About/>} />
      </Routes>
      
      </BrowserRouter>
