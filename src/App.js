@@ -3,6 +3,8 @@ import React from "react";
 import Home from "./components/Home";
 import { BrowserRouter, Routes, Route, } from 'react-router-dom';
 import Portfolio from "./components/Portfolio";
+import BlogList from "./components/BlogList";
+import Blog from "./components/Blog";
 
 function App() {
   return (
@@ -10,10 +12,13 @@ function App() {
      {/* <NavBar/> */}
      <BrowserRouter>
     <NavBar/>
+    {/* <Home/> */}
      <Routes>
 
-     <Route path="home" element={<Home/>} />
+     <Route path="/" element={<Home />} />
      <Route path="portfolio" element={<Portfolio/>} />
+     <Route path="blog" element={<BlogList/>} />
+     <Route path="blog/:blogID" element={<Blog/>} />
      </Routes>
      
      </BrowserRouter>

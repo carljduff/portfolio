@@ -1,0 +1,81 @@
+.port-card {
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 400px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.port-img {
+    width: 400px;
+    height: 300px;
+    
+}
+
+.description {
+    width: 400px;
+    overflow: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Charis SIL', serif;
+    font-size: 20px;
+}
+
+.btn-link {
+    border: 1px solid black;
+    background-color: #B8A9A2;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.btn-link a {
+    color: black;
+
+   
+}
+
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
+
+.p1 {
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.p1-texts {
+    width: 65%;
+    
+}
+
+.p1-title {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.p1-desc {
+    margin: 20px 0px;
+    font-family: 'Charis SIL', serif;
+    font-weight: 700 !important;
+    font-size: 50px;
+    
+}
+
+.p1-list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+
+.teaser-main {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    border: 1px solid black;
+}
