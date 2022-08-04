@@ -59,28 +59,61 @@ export const projects = [
         },
         {
             id: 2,
-            title: "Two",
-            date: 'Today',
-            description: 'Desc'
+            title: "HTML & CSS",
+            date: 'February 04, 2022',
+            description: 'Understanding how HTML and CSS works together has been interesting...'
         },
         {
             id: 3,
-            title: "Two",
-            date: 'Today',
-            description: 'Desc'
-        },
-        {
-            id: 4,
-            title: "Two",
-            date: 'Today',
-            description: 'Desc'
+            title: "JavaScript",
+            date: 'February 11, 2022',
+            description: "This week was Javascript and at the very least, I'm happy to say that I got..."
         },
         {
             id: 5,
-            title: "Two",
-            date: 'Today',
-            description: 'Desc'
+            title: "Front End/Vanilla JavaScript",
+            date: 'February 25, 2022',
+            description: 'The first week of the In-Person portion of the Bootcamp just came to an...'
         },
+        {
+            id: 6,
+            title: "Front End/API's",
+            date: 'March 4, 2022',
+            description: "This week was all about API's and asynchronous functions. We went over Fetch..."
+        },
+        {
+            id: 7,
+            title: "Write an article about something you've learned",
+            date: 'March 11, 2022',
+            description: 'Pseudocoding your way to success...'
+        },
+        {
+            id: 8,
+            title: "Front End/React Basics",
+            date: 'March 18, 2022',
+            description: 'This was the first week we broke away from Vanilla Javascript. At the...'
+        },
+        {
+            id: 9,
+            title: "Front End/Frameworks",
+            date: 'March 25, 2022',
+            description: 'This week was all about React and a to-do list. It was a tough...'
+        },
+        {
+            id: 10,
+            title: "Python/Pair Programming",
+            date: 'April 1, 2022',
+            description: 'This week we started learning Python for our back-end language. It...'
+        },
+        {
+            id: 11,
+            title: "Backend/Frameworks",
+            date: 'April 8, 2022',
+            description: 'This week we learned about backend frameworks....'
+        },
+       
+       
+
       ]
     
     export const blogs = [

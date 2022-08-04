@@ -5,14 +5,15 @@ import { BrowserRouter, Routes, Route, } from 'react-router-dom';
 import Portfolio from "./components/Portfolio";
 import BlogList from "./components/BlogList";
 import Blog from "./components/Blog";
+import { BlogProvider } from "./components/BlogContext";
 
 function App() {
   return (
-    <div className="App">
-     {/* <NavBar/> */}
+    <BlogProvider>
+
+   
      <BrowserRouter>
     <NavBar/>
-    {/* <Home/> */}
      <Routes>
 
      <Route path="/" element={<Home />} />
@@ -22,8 +23,7 @@ function App() {
      </Routes>
      
      </BrowserRouter>
-   {/* <Home/> */}
-    </div>
+     </BlogProvider>
   );
 }
 
