@@ -1,0 +1,41 @@
+.blog-title {
+    font-size: 30px;
+}
+
+.blog-week, .blog-date {
+    font-size: 20px;
+    
+}
+
+.blog-desc {
+    font-size: 15px;
+    font-style: italic;
+    margin-top: 50px;
+}
+
+.blog-q {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.blog-a {
+    font-size: 17px;
+}
+
+.about-title {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.about-sub {
+    margin: 20px 0px;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.about-desc {
+    font-family: 'Charis SIL', serif;
+    margin-right: 20px;
+    font-size: 20px;
+}
