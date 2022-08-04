@@ -14,7 +14,7 @@ import jordan from "../images/jordan.png";
 import "../css/nav.css";
 import { Link } from "react-router-dom";
 
-const pages = ["Home", "Blog", "About", "Portfolio"];
+const pages = ["Home", "Blog", "About", "Projects"];
 
 const NavBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
