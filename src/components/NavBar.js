@@ -88,7 +88,7 @@ const NavBar = () => {
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
                   {page === "Home" && (
-                    <Link to="/">
+                    <Link to="/portfolio">
                       {" "}
                       <Typography className="nav-link-sm" textAlign="center">
                         Home
@@ -97,7 +97,7 @@ const NavBar = () => {
                   )}
 
                   {page !== "Home" && (
-                    <Link to={`${page.toLowerCase()}`}>
+                    <Link to={`/portfolio/${page.toLowerCase()}`}>
                       {" "}
                       <Typography className="nav-link-sm" textAlign="center">
                         {page}
@@ -133,7 +133,7 @@ const NavBar = () => {
 
 
               {page != "Home" && (
-                <Link to={`${page.toLowerCase()}`}>   <Button
+                <Link to={`/portfolio/${page.toLowerCase()}`}>   <Button
                 key={page}
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: "white", display: "block" }}
@@ -142,7 +142,7 @@ const NavBar = () => {
               )}
 
               {page == "Home" && (
-                 <Link to='/'>   <Button
+                 <Link to='/portfolio'>   <Button
                  key={page}
                  onClick={handleCloseNavMenu}
                  sx={{ my: 2, color: "white", display: "block" }}
