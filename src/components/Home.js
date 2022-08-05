@@ -28,7 +28,7 @@ const Home = () => {
         <Col className="col"><img className="pic" alt="" src={jordan}/></Col>
       </Row>
 
-      <Row>
+      {/* <Row>
         <Col>
         <a href="https://github.com/carljduff" alt=""><img className="git" alt="" src={git}/></a>
         <a href="https://www.linkedin.com/in/carljduff/" alt=""><img className="link" alt="" src={linkedin}/></a>
@@ -36,7 +36,7 @@ const Home = () => {
         
         </Col>
         
-      </Row>
+      </Row> */}
     </Container>
         </div>
     )

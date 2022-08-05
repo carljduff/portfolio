@@ -10,11 +10,15 @@ import Container from "@mui/material/Container";
 import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
-import jordan from "../images/jordan.png";
 import "../css/nav.css";
 import { Link } from "react-router-dom";
+import linkedin from "../images/linkedin.png";
+import github from "../images/github.png";
 
-const pages = ["Home", "Blog", "About", "Portfolio"];
+
+
+
+const pages = ["Home", "Blog", "About", "Projects"];
 
 const NavBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -27,7 +31,6 @@ const NavBar = () => {
     setAnchorElNav(null);
   };
 
-  let newPage = pages[0];
 
   return (
     <AppBar className="appbar" position="static">
@@ -157,7 +160,11 @@ const NavBar = () => {
           </Box>
 
           <Box sx={{ flexGrow: 0 }}>
-            <Avatar alt="J" src={jordan} />
+            <a href="https://www.github.com/carljduff"><Avatar alt="J" src={github} /></a>
+          </Box>
+
+          <Box sx={{ flexGrow: 0 }}>
+            <a href="https://www.linkedin.com/in/carljduff/"><Avatar alt="J" src={linkedin} /></a>
           </Box>
         </Toolbar>
       </Container>

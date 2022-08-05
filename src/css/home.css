@@ -4,17 +4,12 @@ body {
 
 }
 
-.clip {
+/* .clip {
     clip-path: circle(55.9% at 50% 20%);
-    /* clip-path: circle(59.4% at 0 53%); */
     height: 100vh;
     background-color: #2B4050;
-    /* width: 100%;
-    height: 100%; */
-    /* top: 0; */
     margin-bottom: 50px;
-
-}
+} */
 
 .col {
     text-align: center;
@@ -46,6 +41,7 @@ body {
         transform: translateY(-200px);
     }
 }
+
 .i-title-item{
     height: 50px;
     font-size: 30px;
@@ -76,4 +72,52 @@ body {
 .link {
     width: 100px;
     height: 100px;
+}
+
+
+@media only screen and (max-width: 320px) {
+    .i-title-item {
+        font-size: 15px;
+    }
+
+    .name {
+        font-size: 15px;
+    }
+
+}
+
+
+@media only screen and (max-width: 428px) {
+    .i-title-item {
+        font-size: 15px;
+    }
+
+    .name {
+        font-size: 15px;
+    }
+
+}
+
+@media only screen and (max-width: 390px) {
+    .i-title-item {
+        font-size: 15px;
+    }
+
+    .name {
+        font-size: 15px;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 375px) {
+    .i-title-item {
+        font-size: 15px;
+    }
+
+    .name {
+        font-size: 15px;
+    }
+
 }
