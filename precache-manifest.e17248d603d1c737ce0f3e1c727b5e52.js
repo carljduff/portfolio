@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "a857dee855dec227d1ac",
-    "url": "/portfolio/static/css/main.898f5f27.chunk.css"
+    "revision": "7a0df118ea60852437fe",
+    "url": "/portfolio/static/css/main.132f0207.chunk.css"
   },
   {
-    "revision": "a857dee855dec227d1ac",
-    "url": "/portfolio/static/js/main.a857dee8.chunk.js"
+    "revision": "7a0df118ea60852437fe",
+    "url": "/portfolio/static/js/main.7a0df118.chunk.js"
   },
   {
-    "revision": "1fdff466cc8bc8f1ea79",
-    "url": "/portfolio/static/js/1.1fdff466.chunk.js"
+    "revision": "ff66d1c01f15bbc8bcfc",
+    "url": "/portfolio/static/js/1.ff66d1c0.chunk.js"
   },
   {
     "revision": "ee2a100325fd284f0097",
@@ -20,16 +20,8 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/jordan.abc21b31.png"
   },
   {
-    "revision": "aed7deb3f24f8c89a16898f8ec983f7c",
-    "url": "/portfolio/static/media/mindreader.aed7deb3.png"
-  },
-  {
     "revision": "9f302f288ac2e824991a62f2203bfa2e",
     "url": "/portfolio/static/media/weather.9f302f28.png"
-  },
-  {
-    "revision": "0cb151c4b45f278abbee1e8ed6f04956",
-    "url": "/portfolio/static/media/tic.0cb151c4.png"
   },
   {
     "revision": "1cb9031dab896f379bb5429ddb3380f2",
@@ -44,7 +36,15 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/menu.f23ca89a.png"
   },
   {
-    "revision": "44d8ebb9bb5e854daff0cfc2a6ff6e4e",
+    "revision": "aed7deb3f24f8c89a16898f8ec983f7c",
+    "url": "/portfolio/static/media/mindreader.aed7deb3.png"
+  },
+  {
+    "revision": "0cb151c4b45f278abbee1e8ed6f04956",
+    "url": "/portfolio/static/media/tic.0cb151c4.png"
+  },
+  {
+    "revision": "b36f19089171a42513f7fa7f9f352c7a",
     "url": "/portfolio/index.html"
   }
 ];
