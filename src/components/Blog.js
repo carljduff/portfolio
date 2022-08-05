@@ -14,7 +14,7 @@ const Blog = () => {
     const { week, title, date, description, questions } = newBlog || {};
 
     return(
-        <Container>
+        <Container className="blog-container">
             <Row>
                 <Col className="blog-week">{week}</Col>
                 <Col className="blog-title">{title}</Col>
@@ -45,7 +45,7 @@ const Blog = () => {
             {questions[2] !== undefined && (
 
                  <Row>
-                 <Col className="blog-a">{questions[2].a3}</Col>
+                 <Col className="blog-a last-a">{questions[2].a3}</Col>
              </Row>
             )}
            
