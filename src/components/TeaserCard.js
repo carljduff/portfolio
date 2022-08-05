@@ -25,9 +25,12 @@ const TeaserCard = ({t_id, t_title, t_date, t_desc}) => {
 <Row>
   <Col className="teaser-desc" md={{ span: 9, offset: 0 }}>{t_desc}</Col>
 </Row>
-<Row>
+{/* <Row>
   <Col md={{ span: 4, offset: 0 }}><Link to={`${t_id}`}><button className="view-btn-teaser">View</button></Link></Col>
-</Row>
+</Row> */}
+<div>
+<Link to={`${t_id}`}><button className="view-btn-teaser">View</button></Link>
+</div>
 <Row>
   <Col md={{ span: 4, offset: 0 }}><hr/></Col>
 </Row>
